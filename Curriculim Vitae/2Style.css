@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    /*
+    --main-font-color: #000;
+    --secondary-font-color: #fff;
+    --main-background: linear-gradient(to bottom, #95A8BC 0%, #FFFFFF 72%, #3A3B63 100%);
+    --secondary-background: #666699;
+    */
+    --main-font-color: #000;
+    --secondary-font-color: #fff;
+    --main-background: linear-gradient(to bottom, #95A8BC 0%, #FFFFFF 72%, #3A3B63 100%);
+    --secondary-background: #666699;
+}
+
+.black-button {
+    float: right;
+
+    height: 45px;
+    line-height: 45px;
+    width: 50px;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+
+
+}
+
+.imagen-perfil {
+    margin-left: 50px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.aside {
+    background-color: var(--secondary-background);
+    width: 370px;
+    height: auto;
+    padding: 16px;
+
+
+}
+
+.h1 {
+    font-size: 35px;
+    margin-top: 0;
+
+}
+
+.h2-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 6px double var(--secondary-font-color);
+    color: var(--secondary-font-color);
+
+}
+
+.ul {
+    color: var(--secondary-font-color);
+}
+
+.fondo-derecha {
+    background: #95A8BC;
+    background: -moz-linear-gradient(top, #95A8BC 0%, #FFFFFF 72%, #3A3B63 100%);
+    background: -webkit-linear-gradient(top, #95A8BC 0%, #FFFFFF 72%, #3A3B63 100%);
+    background: var(--main-background);
+    padding: 16px;
+    color: var(--main-font-color);
+
+
+}
+
+.h2-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 6px double;
+    margin-right: 20px;
+
+}
+
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #08080ecc;
+    cursor: pointer;
+    display: none;
+
+}
+
+.fullscreen img {
+    height: 80vh;
+    width: auto;
+    margin: 10vh auto;
+    display: block;
+}
